@@ -39,6 +39,7 @@ export const LayoutContainer = () => {
         { label: "Allow List", href: `${routePath}/members` },
         { label: "Claim", href: `${routePath}/claims` },
         { label: "Stats", href: `${routePath}/history` },
+        { label: "About", href: `${routePath}/about` },
       ]}
       leftNav={
         <div>

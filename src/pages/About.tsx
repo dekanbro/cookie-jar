@@ -12,37 +12,35 @@ const LinkBox = styled.div`
   justify-content: space-between;
 `;
 
-export const Home = () => {
+export const About = () => {
   return (
     <SingleColumnLayout>
-      <H2>COOKIE JAR</H2>
+      <H2>About</H2>
       <img src={cookie} alt="cookie" height={"150px"} />
       <ParMd style={{ marginBottom: "2.4rem" }}>
-        This is beta software. There may be dragons.
+        Pick a task, do it, and get paid in cookies! Leave a note about what you did and why. If you claim a cookie without a valid note, you will get kicked out of the DAO!
+      </ParMd>
+
+      <H2>Tasks:</H2>
+
+      <ParMd style={{ marginBottom: "2.4rem" }}>
+      Task 1) 5-10 slide Sizzle deck for prospective Epoch sponsors
       </ParMd>
 
       <ParMd style={{ marginBottom: "2.4rem" }}>
-      V1 coming soon thanks to the support of our sponsors.
+      Tasks 2, 3, 4, 5) Yerba quests for each Epoch (4 separate tasks)
       </ParMd>
 
       <ParMd style={{ marginBottom: "2.4rem" }}>
-        Cookie Jar is a DAO owned slush fund
-      </ParMd>
-      
-      <ParMd style={{ marginBottom: "2.4rem" }}>
-        Cookies have daily limits and can be claimed by an anyone on the allowlist
+      Tasks 6) creation Github repository for ELI5 media kit 
       </ParMd>
 
       <ParMd style={{ marginBottom: "2.4rem" }}>
-        Allowlist is managed by the DAO
+      Task 7)  Update ELI5 branding for media kit creation (ensure logos are available in various formats; pitch updated logo ideas if you are feeling creative)
       </ParMd>
 
       <ParMd style={{ marginBottom: "2.4rem" }}>
-        Take out the trash? Claim a cookie. Don't forget to leave a note!
-      </ParMd>
-
-      <ParMd style={{ marginBottom: "2.4rem" }}>
-        But be careful, if you take too many cookies without good reason, you might just get kicked out of the DAO!
+      Task 8) Suggest edits/updates to ensure LitePaper is current
       </ParMd>
 
     </SingleColumnLayout>

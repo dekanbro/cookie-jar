@@ -15,6 +15,7 @@ import { Claims } from "./pages/Claim";
 import { History } from "./pages/History";
 import { Jars } from "./pages/Jars";
 import { CreateJar } from "./pages/CreateJar";
+import { About } from "./pages/About";
 
 const routePath = `molochv3/${
   TARGET_DAO[import.meta.env.VITE_TARGET_KEY].CHAIN_ID
@@ -42,6 +43,8 @@ export const Routes = () => {
         <Route path={`${routePath}/members/ragequit`} element={<RageQuit />} />
         <Route path={`${routePath}/claims`} element={<Claims />} />
         <Route path={`${routePath}/history`} element={<History />} />
+        <Route path={`${routePath}/about`} element={<About />} />
+
         <Route path={`/jars`} element={<Jars />} />
         <Route path={`/create`} element={<CreateJar />} />
 

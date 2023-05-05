@@ -170,7 +170,7 @@ export const Claims = () => {
     return (
       <DisplayClaim
         heading="Go ahead, reach in and grab a cookie!"
-        description="You have not claimed your daily cookie yet. Claiming a cookie will send funds direct to you from the jar."
+        description="You have not claimed your weekly cookie yet. Claiming a cookie will send funds direct to you from the jar. You must be on the allow list with 10 shares or the transaction will fail. See about page for rules."
         element={
           <>
             <ClaimDetails
