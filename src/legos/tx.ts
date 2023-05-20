@@ -52,4 +52,27 @@ export const APP_TX = {
       },
     ],
   },
+  CREATENFTJAR: {
+    id: 'CREATENFTJAR',
+    contract: APP_CONTRACT.COOKIEJAR,
+    method: 'reachInJar',
+    staticArgs: [],
+    args: [
+      `.receiver`,
+      {
+        type: "JSONDetails",
+        jsonSchema: {
+          title: { type: "static", value: "to eat a cookie"},
+          user: `.user`,
+          receiver: `.receiver`,
+          description: `.reason`,
+          link: `.link`,
+          table: { type: "static", value: "reason" },
+          queryType: { type: "static", value: "list" },
+        },
+      },
+    ],
+  },
+
+  
 };

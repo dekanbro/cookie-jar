@@ -79,7 +79,9 @@ export const useCookieJarFactory = ({
       amount: initParams[2],
       token: initParams[3],
     }
-    return {...parsedContent, initParamsObj, parsedDetails};
+    return {...parsedContent, initParamsObj, 
+      // parsedDetails
+    };
   });
 
 

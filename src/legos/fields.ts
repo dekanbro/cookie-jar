@@ -39,4 +39,29 @@ export const APP_FIELD: Record<string, CustomFieldLego> = {
       {name: "pickles", value: "pickles", key: "pickles"}
     ],
   },
+  COOKIE_AMOUNT: {
+    id: "cookieAmount",
+    type: "toWeiInput",
+    label: "Cookie Amount",
+    placeholder: "Enter something",
+  },
+  COOKIE_PERIOD: {
+    id: "cookiePeriod",
+    type: "input",
+    label: "Cookie Period",
+    placeholder: "Enter something",
+  },
+  COOKIE_TOKEN: {
+    id: "cookieToken",
+    type: "input",
+    label: "Cookie Token",
+    placeholder: "Enter something",
+  },
+  ALLOW_LIST: {
+    id: "allowList",
+    type: "csInput",
+    label: "Allow List",
+    itemNoun: { singular: "address", plural: "addresses" },
+    placeholder: "Enter something",
+  },
 };
